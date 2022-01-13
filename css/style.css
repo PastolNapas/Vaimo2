@@ -1,0 +1,629 @@
+body{
+    /* position: relative; */
+    width: 1440px;
+    height: 1024px;
+    background: #333333;
+    
+}
+/* FIRST HEADER */
+.first{
+    width: 1440px;
+    height: 156px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 4.88%;
+    background: #FFFFFF;
+}
+.topbar{
+    width: 1440px;
+    height: 24px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #F7F7F7;
+}
+.deliver{
+    position: absolute;
+    height: 17px;
+    left: 45.35%;
+    right: 45.28%;
+    top: calc(50% - 17px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.8px;
+
+    color: #000000;
+}
+.group{
+    position: absolute;
+    left: 93.75%;
+    right: 1.67%;
+    top: 16.67%;
+    bottom: 20.83%;
+}
+.stores{
+    position: absolute;
+    height: 15px;
+    left: 20%;
+    right: 0%;
+    top: calc(50% - 15px/2);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.0833333px;
+
+    color: #000000;
+}
+#shape{
+    position: absolute;
+    width: 8px;
+    height: 11.12px;
+    left: 0px;
+    top: 2.px;
+    
+}
+.search{
+    position: absolute;
+    left: 29.72%;
+    right: 29.72%;
+    top: 29.27%;
+    bottom: 41.46%;
+}
+#searchbar{
+    position: absolute;
+    height: 17px;
+    left: 2.74%;
+    right: 69.69%;
+    top: calc(50% - 17px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+
+    color: #000000;
+}
+.rect{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #F7F7F7;
+    border: 1px solid #F2F2F2;
+    border-radius: 3px;
+}
+.fill{
+
+    position: absolute;
+    left: 96.61%;
+    right: 1.39%;
+    top: 36.3%;
+    bottom: 40.31%;
+    
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.aurora{
+    position: absolute;
+    height: 57px;
+    left: 1.67%;
+    right: 88.54%;
+    top: calc(50% - 57px/2 - 13.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+    letter-spacing: 0.95px;
+
+    color: #333333;
+}
+.sign_frame{
+    width: 204px;
+    height: 24px;
+    position: absolute;
+    left: 84.17%;
+    right: 1.67%;
+    top: 29.27%;
+    bottom: 56.1%;
+}
+#sign_text{
+
+    position: absolute;
+    height: 17px;
+    left: -1.35%;
+    right: 22.15%;
+    top: calc(50% - 17px/2 + 1.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+#sign_basket{
+    position: absolute;
+    left: 89.12%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.main{
+    
+    position: absolute;
+    left: 27%;
+    right: 27%;
+    top: 73.17%;
+    bottom: 15.24%;
+
+}
+#new{
+    position: absolute;
+    height: 20px;
+    left: 0%;
+    right: 85.49%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+#women{
+    position: absolute;
+    height: 20px;
+    left: 19.34%;
+    right: 71.92%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+#access{
+    position: absolute;
+    height: 20px;
+    left: 33.07%;
+    right: 51.33%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+#kids{
+
+    position: absolute;
+    height: 20px;
+    left: 53.82%;
+    right: 41.03%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+#beauty{
+    position: absolute;
+    height: 20px;
+    left: 63.96%;
+    right: 27.46%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+#outlet{
+    position: absolute;
+    height: 20px;
+    left: 77.54%;
+    right: 14.2%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+#stories{
+    position: absolute;
+    height: 20px;
+    left: 90.8%;
+    right: 0%;
+    top: calc(50% - 20px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+/* SECOND HEADER */
+.second{
+    position: absolute;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 212px;
+    background: #FFFFFF;    
+}
+#hi_angels{
+    position: absolute;
+    height: 17px;
+    left: 35.47%;
+    right: 30.71%;
+    top: calc(50% - 17px/2 + 1.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+#second_sign_basket{
+    position: absolute;
+    width: 16.08px;
+    height: 24px;
+    left: 157.77px;
+    top: 0px;
+}
+#oval_div{
+
+position: absolute;
+left: 89.16%;
+right: 0%;
+top: 4.17%;
+bottom: 4.17%;
+
+}
+#number{
+    position: absolute;
+    height: 17px;
+    left: 30%;
+    right: 20.68%;
+    top: calc(50% - 17px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+#oval{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+/* THIRD HEADER */
+.third{
+    position: absolute;
+    width: 1440px;
+    height: 73px;
+    left: 0px;
+    top: 424px;
+
+    background: #FFFFFF;
+}
+.third_aurora{
+    position: absolute;
+    height: 48px;
+    left: 1.67%;
+    right: 90.07%;
+    top: calc(50% - 48px/2 + 1.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+
+    color: #333333;
+}
+.third_search{
+    position: absolute;
+    left: 27.78%;
+    right: 31.67%;
+    top: 21.92%;
+    bottom: 23.29%;
+    background: #F7F7F7;
+    border: 1px solid #E1E0E1;
+    border-radius: 3px;
+}
+#what{
+
+    position: absolute;
+    height: 17px;
+    left: 2.74%;
+    right: 69.69%;
+    top: calc(50% - 17px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+
+    color: #000000;
+}
+#third_fill{
+    position: absolute;
+    left: 96.61%;
+    right: 1.39%;
+    top: 33.56%;
+    bottom: 38.38%;
+    
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.third_hi_angels{
+    position: absolute;
+    left: 84.17%;
+    right: 1.67%;
+    top: 32.88%;
+    bottom: 34.25%;
+}
+#third_hi_angels{
+    position: absolute;
+    height: 17px;
+    left: 35.47%;
+    right: 30.71%;
+    top: calc(50% - 17px/2 + 1.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+/* FOURTH HEADER */
+.fourth_header{
+    position: absolute;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 553px;
+
+
+}
+.fourth_topbar{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.37%;
+
+background: #FFFFFF;
+}
+.fourth_aurora{
+    position: absolute;
+    height: 57px;
+    left: 1.67%;
+    right: 88.54%;
+    top: calc(50% - 57px/2 - 13.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+    letter-spacing: 0.95px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+.fourth_search{
+    position: absolute;
+    left: 29.72%;
+    right: 29.72%;
+    top: 29.27%;
+    bottom: 41.46%;
+}
+.fourth_rect{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F7F7F7;
+    mix-blend-mode: normal;
+    opacity: 0.30;
+    border-radius: 3px;
+}
+#fourth_searchbar{
+    position: absolute;
+    height: 17px;
+    left: 2.74%;
+    right: 69.69%;
+    top: calc(50% - 17px/2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+    
+    color: #FFFFFF;
+}
+.image{
+
+    position: absolute;
+    width: 1440px;
+    height: 164px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+   background: url(/img/Rectangle.png)
+}
+#new,
+#women,
+#access,
+#kids,
+#beauty,
+#outlet,
+#stories{
+    color: #FFFFFF;
+}
+#fourth_sign_text{
+    position: absolute;
+    height: 17px;
+    left: -1.35%;
+    right: 22.15%;
+    top: calc(50% - 17px/2 + 1.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+/* FIFTH HEADER */
+.fifth_header{
+    position: absolute;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 765px;
+    
+}
+.fifth_sign_frame{
+    position: absolute;
+    left: 84.17%;
+    right: 1.67%;
+    top: 29.27%;
+    bottom: 56.1%;
+
+    background: #4A4A4A;
+}
+#fifth_hi_angels{
+    position: absolute;
+    height: 17px;
+    left: 35.47%;
+    right: 30.71%;
+    top: calc(50% - 17px/2 + 1.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
